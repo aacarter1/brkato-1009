@@ -1,0 +1,11 @@
+devices:
+  Spine-1:
+    os: nxos
+    alias: core_router
+    type: router
+    connections:
+      cli:
+        ip: 198.18.134.101
+        username: admin
+        password: cisco
+        protocol: ssh
